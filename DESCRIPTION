@@ -1,0 +1,15 @@
+Package: knitsql
+Type: Package
+Title: Adds SQL code chunk engine for knitr
+Version: 0.1.0
+Authors@R: c(
+    person("Joe", "Cheng", role = c("aut", "cre"), email = "joe@rstudio.com"),
+    person("RStudio, Inc.", role = c("cph"))
+    )
+Description: Lets you write SQL code directly in a knitr code chunk, and have
+    the resulting data saved as an R data frame variable.
+License: GPL (>= 2)
+LazyData: TRUE
+Imports: DBI (>= 0.4-1), knitr
+Enhances: knitr
+RoxygenNote: 5.0.1
