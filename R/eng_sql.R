@@ -48,7 +48,6 @@ varnames_from_sql <- function(conn, sql) {
 
 # Vectorized version of exists
 mexists <- function(x, env = knitr::knit_global(), inherits = TRUE) {
-  browser()
   vapply(x, exists, logical(1), where = env, inherits = inherits)
 }
 
